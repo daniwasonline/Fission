@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:wght@400;500&display=swap');
+
+:root {
+  --brand-black: #312F2F;
+  --brand-white: #e1f5fb;
+  --brand-link: #8bb9c8;
+  --brand-colour: #6BDBFF;
+}
+
+body {
+  margin: 0;
+  font-family: "Readex Pro", "Red Hat Display", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--brand-black);
+  color: var(--brand-white);
+}
+
+code {
+  font-family: "Source Code Pro", monospace;
+}
+
+a {
+  color: var(--brand-link);
+  text-decoration: inherit;
+}

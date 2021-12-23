@@ -1,0 +1,38 @@
+.Core {
+  text-align: center;
+}
+
+.Fallback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Header {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+}
+
+.Uni-Header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+.Uni-Header-NavCluster {
+  list-style-type: none;
+}
+
+.Uni-Header-NavItem {
+  color: var(--brand-white);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.Uni-Header-NavItemFirst {
+  margin-left: -0.5vw;
+}
