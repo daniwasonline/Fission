@@ -1,4 +1,5 @@
 import "./css/Core.css";
+import "./css/Pages.css";
 
 import { BrowserView, MobileView } from "react-device-detect";
 import { Routes, Route, Outlet, BrowserRouter } from "react-router-dom";
