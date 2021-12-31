@@ -1,7 +1,9 @@
 {
-  "name": "mine.rip",
-  "version": "0.1.0",
-  "private": true,
+  "name": "onquark",
+  "version": "0.1.1",
+  "author": "MineRIP Open Source",
+  "description": "The frontend web component of Nexus, an announcement system and website framework.",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",

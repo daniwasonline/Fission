@@ -1,21 +1,44 @@
+/*
+    Copyright (C) 2021 MineRIP, Daniel Hyders, Bunni <https://mine.rip>
+    This file is part of Fission, the frontend component of Nexus.
+
+    Fission is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Fission is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+
+    Name: AnnouncementBoxes:Index.jsx
+    Author: Daniel Hyders <git@danny.works>
+*/
 import { useState } from "react";
 import ReactMarkdown from 'react-markdown';
 import useDeepCompareEffect from "use-deep-compare-effect";
 export default function AnnouncementBoxes() {
+    const useDefault = true;
     const [announcements, setAnnouncements] = useState([]);
     const [usernameDirectory] = useState({});
     useDeepCompareEffect(() => {
-        let content = [{
-            title: "Wendy",
-            content: "Wendy is an apple green frog with a cream colored belly. Her eyes sit on top of her head, and are black rimmed in white. She has prominent nostrils above her smiling mouth, and a pale pink blush on her cheeks. Welcome Wendy! Wendy's birthday is May 10, meaning her SquishScope sign is a Taurus. You can always find her out on the basketball court (she won the MVP award last year) or in the science lab, since chemistry is her favorite subject. She wants to be a famous scientist when she grows up and likes to paint pictures of her inventions. She's an all around green gal, and is also very eco-friendly, always doing her part to clean up her community. Her favorite food is sushi, especially the avocado rolls and one of her other favorite hobbies includes gardening with her family!",
+        let content;
+        let defaultContent = [{
+            title: "Welcome to Fission!",
+            content: "Fission is the front-end component of Nexus, originally built as part of the MineRIP website. Nexus is an announcement system and website framework built in React.js and Fastify, similar to the likes of WordPress and other such software.\n\nFission is available under the [GNU General Public License v3](https://www.gnu.org/licenses/quick-guide-gplv3.html), and Fusion (the backend component of Nexus) will be available under the same licence in the future.",
             timestamp: "2020-01-01T00:00:00.000Z",
-            authorUuid: "a939cb12-1d34-4fec-8687-bf976aa40de2"
+            authorUuid: "45f461cb-d605-49c4-acc9-fed1d32b1602"
         }, {
-            title: "About BDSM",
-            content: `Activities and relationships in BDSM are often characterized by the participants' taking on roles that are complementary and involve inequality of power; thus, the idea of informed consent of both the partners is essential. The terms submissive and dominant are often used to distinguish these roles: the dominant partner ("dom") takes psychological control over the submissive ("sub"). The terms top and bottom are also used; the top is the instigator of an action while the bottom is the receiver of the action. The two sets of terms are subtly different: for example, someone may choose to act as bottom to another person, for example, by being whipped, purely recreationally, without any implication of being psychologically dominated, and submissives may be ordered to massage their dominant partners. Although the bottom carries out the action and the top receives it, they have not necessarily switched roles.`,
+            title: "How can I help contribute to the Nexus project?",
+            content: `While Fusion won't be open-sourced until later in 2022, you can still contribute to Fission by opening issues, contributing code, and supporting MineRIP, the organization behind Nexus.\n\n**Thank you for choosing Nexus!**`,
             timestamp: "2020-01-01T00:00:00.000Z",
-            authorUuid: "fe76f336-8a1b-4856-baa0-5751db6dfb7f"
+            authorUuid: "45f461cb-d605-49c4-acc9-fed1d32b1602"
         }];
+
+        if (useDefault) content = defaultContent;
 
         setAnnouncements(content);
 

@@ -1,12 +1,12 @@
 Copyright (C) 2021 MineRIP, Daniel Hyders, Bunni <https://mine.rip>
-This file is part of mine.rip's frontend.
+This file is part of Fission, the frontend component of Nexus.
 
-mine.rip's frontend is free software: you can redistribute it and/or modify
+Fission is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-mine.rip's frontend is distributed in the hope that it will be useful,
+Fission is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.

@@ -1,3 +1,24 @@
+/*
+    Copyright (C) 2021 MineRIP, Daniel Hyders, Bunni <https://mine.rip>
+    This file is part of Fission, the frontend component of Nexus.
+
+    Fission is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Fission is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+
+    Name: Core:Root.css
+    Original Author: Create React App Community
+    Contributors: CRA Community, Daniel Hyders <git@danny.works>
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:wght@400;500&display=swap');
 
 :root {
@@ -5,6 +26,7 @@
   --brand-white: #e1f5fb;
   --brand-link: #8bb9c8;
   --brand-colour: #6BDBFF;
+  color-scheme: dark;
 }
 
 body {

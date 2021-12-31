@@ -1,3 +1,23 @@
+/*
+    Copyright (C) 2021 MineRIP, Daniel Hyders, Bunni <https://mine.rip>
+    This file is part of Fission, the frontend component of Nexus.
+
+    Fission is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Fission is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+
+    Name: Core:Core.css
+    Author: Daniel Hyders <git@danny.works>
+*/
+
 .Core {
   text-align: center;
 }
@@ -77,7 +97,7 @@
   hyphens: auto;
   white-space: normal;
   border-radius: 25px;
-  filter: drop-shadow(30px 10px 4px rgb(26, 26, 26));
+  filter: drop-shadow(15px 10px 4px #2c2929);
 }
 
 .AnnouncementBoxes-Title {
