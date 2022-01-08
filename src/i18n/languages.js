@@ -6,6 +6,12 @@ export default {
                 "storeButton": "Store",
                 "aboutButton": "About",
                 "announcementsButton": "Announcements",
+            },
+            "pt-PT": {
+                "homeButton": "Inicio",
+                "storeButton": "Loja",
+                "aboutButton": "Acerca",
+                "announcementsButton": "Anuncios",
             }
         }
     }
