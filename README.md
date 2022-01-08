@@ -1,5 +1,13 @@
-# Fission
+# React is a breeze with Tailwind.
+This CRA app was created using the Reactbreeze template, which contains Tailwind. Learn more about Reactbreeze on [GitHub](https://github.com/hydrabank/cra-template-reactbreeze).
 
-The front-end web component for Nexus, originally built for [MineRIP](https://mine.rip). It is written in JavaScript, built on top of the React.js framework.
+## Usage
 
-Fission is part of the Nexus project, an announcement system and website framework built on top of the React and Fastify frameworks. This repository makes up the user-facing side of Nexus, with the other half, Fusion, being the developer- and backend-facing engine of the system. In the future, Fusion will be released publicly under the GNU General Public License version 3.0, and both will be available as part of Nexus.
+Create React App provides [documentation on how you can start and test your new application](https://create-react-app.dev/docs/available-scripts).
+
+## Resources
+- [Getting Started](https://create-react-app.dev/docs/getting-started) - The Getting Started guide for CRA-based projects.
+- [Editor/IDE Tips](https://create-react-app.dev/docs/setting-up-your-editor) - A list of tips and tricks on how to configure your preferred text editor/IDE to work harmoniously with Create React App.
+- [Client-side routing in React](https://reactrouter.com/web/guides/quick-start) - A quick-start guide for CSR (client side routing) in React using `react-router-dom`.
+- [Deployment Tips](https://create-react-app.dev/docs/deployment) - Tips on how to deploy your Reactbreeze-based app in production environments.
+- [Creating PWAs](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app) - A guide on how to create Progressive Web Apps using CRA.
