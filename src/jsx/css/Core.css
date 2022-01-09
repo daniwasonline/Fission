@@ -1,9 +1,21 @@
+.Body {
+  @apply dark:bg-gray-800 bg-gray-100 h-screen;
+}
+
+.ContentContainer {
+  @apply h-screen flex justify-center items-center flex-col gap-y-6 flex-wrap;
+}
+
 .Header {
-  @apply text-black text-center dark:text-white font-bold text-4xl font-BreezeHeader px-5;
+  @apply text-black dark:text-white font-bold text-4xl py-4 font-BreezeHeader px-12;
+}
+
+.Title {
+  @apply text-black dark:text-white font-bold text-3xl py-4 pb-0 font-BreezeHeader px-12;
 }
 
 .Text {
-  @apply text-black text-center dark:text-white text-2xl font-BreezeText px-12;
+  @apply text-black dark:text-white text-2xl font-BreezeText px-12;
 }
 
 .Button {

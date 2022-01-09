@@ -1,0 +1,27 @@
+.Nav-CPrimary {
+    @apply hidden md:flex items-center space-x-2;
+}
+
+.Nav-Logo {
+    @apply flex items-center py-1 px-3;
+}
+
+.Nav-SelectedPrimaryItem {
+    @apply py-4 px-2 text-sky-500 border-b-4 border-sky-500 font-bold font-BreezeHeader;
+}
+
+.Nav-PrimaryItem {
+    @apply py-4 px-2 text-gray-500 dark:text-gray-100 font-bold font-BreezeHeader hover:text-sky-500 border-b-4 border-transparent transition duration-300;
+}
+
+.Nav-MobileStyle {
+    @apply w-8 h-8 text-gray-500 dark:text-gray-100 hover:text-sky-500;
+}
+
+.Nav-UnselectedItemMobile {
+    @apply block text-sm px-2 py-4 hover:bg-sky-500 text-gray-900 dark:text-gray-100 transition duration-300 font-BreezeText;
+}
+
+.Nav-SelectedItemMobile {
+    @apply block text-sm px-2 py-4 text-gray-100 bg-sky-500 font-semibold font-BreezeText;
+}

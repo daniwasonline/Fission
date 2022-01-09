@@ -1,0 +1,31 @@
+.NFHeader {
+    @apply text-black text-center dark:text-white font-bold text-6xl font-BreezeHeader px-5;
+}
+
+.LeftContainer {
+    @apply h-screen flex justify-start items-start flex-col gap-y-6 py-5 flex-nowrap;
+}
+
+.HomeBanner {
+    @apply h-80 bg-center md:bg-right flex items-center rounded-md;
+}
+
+.AnnouncementHeader {
+    @apply text-center font-extrabold text-5xl py-4 font-BreezeHeader px-12 bg-clip-text text-white;
+}
+
+.Author {
+    @apply text-center font-extrabold text-2xl font-BreezeHeader pr-2 bg-clip-text bg-gray-700 dark:bg-gray-700;
+}
+
+.AnnouncementContainer {
+    @apply flex flex-col justify-start items-start gap-y-6 dark:bg-gray-700 bg-gray-300 shadow-2xl rounded-lg px-1 py-6 my-5 mx-12;
+}
+
+.AnnouncementText {
+    @apply leading-relaxed;
+}
+
+.AnnouncementText a {
+    @apply text-gray-500 dark:text-sky-200;
+}
